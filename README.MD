@@ -25,4 +25,4 @@ Together with a Powerbank, u can sink both in any kind of dice. Check that you a
 Now you have a universal cube. In the broker, you can then store any terms or numbers for the respective side.
 
 ### Code for the Raspberry Pi as a Broker
-The Code for the Raspberry Pi, u can finde [here](https://github.com/technologiestiftung/idea-machine-raspi-wiesbaden)
+The Code for the Raspberry Pi, u can finde [here](https://github.com/technologiestiftung/idea-machine-raspi)
