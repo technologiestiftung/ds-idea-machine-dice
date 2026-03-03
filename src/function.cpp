@@ -59,8 +59,9 @@ void sending_data()
   itoa(side, sideString, 10);
   Serial.print("Neue Würfelseite: ");
   Serial.println(sideString);
-  client.publish("dice/gelb", sideString);
- 
+  client.publish("dice/pink", sideString);
+  lastRollTime = millis();
+
 }
 
 void diceing ()

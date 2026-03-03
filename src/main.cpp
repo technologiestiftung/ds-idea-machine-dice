@@ -73,11 +73,13 @@ void loop() {
     }
     isMoving = false;
   }
-  
+
+  if (millis() - lastRollTime > SLEEP_TIMEOUT && lastRollTime != 0) {
+    Serial.println("4 Stunden keine Aktivität - gehe in Deep Sleep");
+    delay(100);
+    esp_deep_sleep_start();
+  }
+
   delay(50);
 
 }
-
-
-
-

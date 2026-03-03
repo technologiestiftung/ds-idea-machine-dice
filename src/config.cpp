@@ -27,6 +27,9 @@ float z_achse = 0;
 
 int last_side = 0;
 
+unsigned long lastRollTime = 0;
+const unsigned long SLEEP_TIMEOUT = 4UL * 60 * 60 * 1000; // 4 Stunden in Millisekunden
+
 String message = "";
 String messageTemp = "";
 
