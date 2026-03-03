@@ -29,6 +29,7 @@ int last_side = 0;
 
 unsigned long lastRollTime = 0;
 const unsigned long SLEEP_TIMEOUT = 4UL * 60 * 60 * 1000; // 4 Stunden in Millisekunden
+// const unsigned long SLEEP_TIMEOUT = 3UL * 60 * 1000; // 3 Minuten in Millisekunden
 
 String message = "";
 String messageTemp = "";
