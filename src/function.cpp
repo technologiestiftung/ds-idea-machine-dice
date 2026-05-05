@@ -60,7 +60,8 @@ void sending_data()
   Serial.print("Neue Würfelseite: ");
   Serial.println(sideString);
   client.publish("dice/gelb", sideString);
- 
+  lastRollTime = millis();
+
 }
 
 void diceing ()

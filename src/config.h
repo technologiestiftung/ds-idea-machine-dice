@@ -12,6 +12,9 @@ extern Adafruit_MPU6050 mpu;
 extern const char* ssid;
 extern const char* password;
 
+extern unsigned long lastRollTime;
+extern const unsigned long SLEEP_TIMEOUT;
+
 extern IPAddress ip;
 extern IPAddress gateway;
 extern IPAddress subnet;
